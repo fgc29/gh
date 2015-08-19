@@ -1,6 +1,6 @@
 == README
 
-This is a small application created around the concepts during a phone screen.
+This is a small application created around the concepts covered during a phone screen.
 
 Concepts covered are:
 
