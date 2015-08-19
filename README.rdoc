@@ -18,4 +18,4 @@ Concepts covered are:
 
 == Commands
 
-* rake runs the test suite after all initial components are installeds
+* 'rake' runs the test suite after all initial components are installed.
