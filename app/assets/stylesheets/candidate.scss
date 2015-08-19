@@ -1,0 +1,33 @@
+// Place all the styles related to the candidate controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+li  {
+  list-style: none;
+}
+#candidate-card {
+  width: 250px;
+  height: auto;
+  border: 1px solid red;
+  margin: 10px;
+  border-radius: 10px;
+  float: right;
+}
+h1,p  {
+  text-align: center;
+}
+hr {
+  width: 90%;
+}
+a {
+  text-decoration: none;
+}
+#form {
+  border: 1px solid red;
+  width: 400px;
+  height: auto;
+  margin-left: 40%;
+  border-radius: 10px;
+}
+.form div {
+  margin-left: 5%;
+}
