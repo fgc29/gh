@@ -21,7 +21,7 @@ describe CandidatesController, :type => :controller do
       expect(response.status).to eq(200)
     end
 
-    it "should route to create action" do
+    it "routes to create action" do
       expect(:post => "/candidates").to route_to(:controller => "candidates", :action => "create")
     end
   end
