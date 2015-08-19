@@ -1,10 +1,9 @@
 <%= link_to "Add a New Candidate", root_path %>
 <h1>Candidates in the System</h1>
 <hr>
-<!-- <ul> -->
+<section id="candidates">
   <% @candidates.each do | candidate | %>
-  <div class="candidate-card">
-    <!-- <li> -->
+    <div class="candidate-card">
       <h1><%= candidate.name  %></h1>
       <hr>
       <div class="candidate-info">
@@ -12,7 +11,6 @@
           <p><%= mail_to email.email  %></p>
         <% end %>
       </div>
-    <!-- </li> -->
-  </div>
+    </div>
   <% end %>
-<!-- </ul> -->
+</section>

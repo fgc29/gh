@@ -13,19 +13,17 @@
  *= require_tree .
  *= require_self
  */
+#candidates {
+  margin-left: 7.5%;
+}
  .candidate-card {
    width: 250px;
    height: 250px;
    border: 1px solid red;
-   margin: 10px 5% 0 5%;
+   margin: 10px 20px 0 20px;
    border-radius: 10px;
    display: inline-block;
    overflow: hidden;
- }
- li {
-  list-style: none;
-  width: 100%;
-  height: 100%;
  }
  .candidate-info {
    width: 100%;
