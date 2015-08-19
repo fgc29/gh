@@ -9,7 +9,7 @@
       <hr>
       <div class="candidate-info">
         <% candidate.emails.each do |email| %>
-          <p><%= email.email  %></p>
+          <p><%= mail_to email.email  %></p>
         <% end %>
       </div>
     </li>
