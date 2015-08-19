@@ -1,28 +1,21 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a small application created around the concepts during a phone screen.
 
-Things you may want to cover:
+Concepts covered are:
 
-* Ruby version
+* Integration testing
 
-* System dependencies
+* Acceptance testing
 
-* Configuration
+* Unit testing
 
-* Database creation
+* DB Relationships, in particular has_many
 
-* Database initialization
+* HTTP methods(GET, POST)
 
-* How to run the test suite
+* JS object instantiation
 
-* Services (job queues, cache servers, search engines, etc.)
+== Commands
 
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* rake runs the test suite after all initial components are installeds
