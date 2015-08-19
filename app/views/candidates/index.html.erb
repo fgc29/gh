@@ -3,13 +3,15 @@
 <hr>
 <ul>
   <% @candidates.each do | candidate | %>
-  <div id="candidate-card">
+  <div class="candidate-card">
     <li>
       <h1><%= candidate.name  %></h1>
       <hr>
-      <% candidate.emails.each do |email| %>
-        <p><%= email.email  %></p>
-      <% end %>
+      <div class="candidate-info">
+        <% candidate.emails.each do |email| %>
+          <p><%= email.email  %></p>
+        <% end %>
+      </div>
     </li>
   </div>
   <% end %>
